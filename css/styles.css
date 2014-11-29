@@ -1,0 +1,46 @@
+body{
+    background-attachment: fixed;
+    background-color: rgb(243, 243, 243);
+    background-image: url("../img/bg.jpg");
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.header-icon{
+    height: 22px;
+}
+
+#avatar{
+    background-image: url("../img/avatar.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 5px solid white;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    height: 250px;
+    margin: 75px auto;
+    width: 250px;
+
+    -webkit-animation: flipInY 1s;
+    animation: flipInY 1s;
+}
+
+a.button{
+    background-color: gray;
+    border-radius: 2px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
+    font-size: 14px;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 220px;
+    text-overflow: ellipsis;
+
+    -webkit-animation: flipInX 1s;
+    animation: flipInX 1s;
+}
+
+hr{
+    margin-top: 0px;
+}
