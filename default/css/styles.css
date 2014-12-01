@@ -1,16 +1,20 @@
 body{
     background-attachment: fixed;
     background-color: rgb(243, 243, 243);
-    background-image: url("../img/bg.jpg");
+    /*background-image: url("../img/bg.jpg");*/
     background-position: 50% 100%;
     background-repeat: no-repeat;
     background-size: contain;
+    margin: 0;
 }
 
 .header-icon{
     height: 22px;
 }
-
+.block{
+    color:#222;
+        height:100vh;
+}
 #avatar{
     background-image: url("../img/avatar.jpg");
     background-position: center;
