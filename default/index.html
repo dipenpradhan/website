@@ -1,334 +1,481 @@
-<!-- TODO
-
-- Icons
-- Add data and links
-- Check responsiveness
-- Verify data and links
-- Delete unnecessary assets
-- Hamburger icon
-- W3C Validation
-- <meta> tags
-
--->
-
 <!DOCTYPE html>
 <!--[if IE 9]><html class="lt-ie10" lang="en"><![endif]-->
-<html class="no-js" lang="en" >
-    <head>
-        <meta charset="utf-8">
-        <meta name="author" content="Dipen Pradhan">
-        <meta name="description" content="Android developer based in Mumbai, Maharashtra.">
-        <meta name="keywords" content="android, sdk, java, mysql, database, sql, developer, mumbai, app, mobile, application, phone, smartphone">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html class="no-js" lang="en">
 
-        <title>Dipen Pradhan</title>
-        <link rel="icon" href="img/avatar.jpg">
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Dipen Pradhan">
+    <meta name="description" content="Software developer based in Mumbai, Maharashtra.">
+    <meta name="keywords" content="android, sdk, ndk, java, mysql, database, sql, developer, mumbai, app, mobile, application, phone, smartphone, andengine, box2d, bot wars, games, numtrix, sportkix, done">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dipen Pradhan</title>
+    <link rel="icon" href="img/d.png">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/foundation.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/fa/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab|Raleway:500' rel='stylesheet' type='text/css'>
+    <script src="js/vendor/modernizr.js"></script>
+</head>
 
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/foundation.min.css">
-        <link rel="stylesheet" href="css/animate.css">
-        <link rel="stylesheet" href="css/fa/css/font-awesome.min.css">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/styles.css">
-        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.3.15/slick.css"/>
-
-        <script src="js/vendor/modernizr.js"></script>
-    </head>
-    <body>
-        <!-- Header -->
-        <div class="contain-to-grid fixed">
-            <nav class="top-bar" data-topbar role="navigation">
-                <ul class="title-area">
-                    <li class="name">
-                        <h1><a href="#"></a></h1>
+<body>
+    <!-- Header -->
+    <div class="contain-to-grid fixed">
+        <nav class="top-bar" data-topbar role="navigation">
+            <ul class="title-area">
+                <li class="name">
+                    <h1><a href="#"></a></h1>
+                </li>
+                <li class="toggle-topbar menu-icon "><a href="#">FOLLOW ME</a>
+                </li>
+            </ul>
+            <section class="top-bar-section">
+                <span class="left title-text show-for-medium-up">
+                        dipen pradhan.
+                    </span>
+                <ul class="right show-for-medium-down">
+                    <li class="has-dropdown">
+                        <a href="#" class="topbar-button"><i class="fa fa-globe"></i>&nbsp;&nbsp;FOLLOW ME</a>
+                        <ul class="dropdown">
+                            <li>
+                                <a href="http://linkedin.com/pub/dipen-pradhan/47/107/907/"><img src="img/icons/linkedin42.png" alt="LinkedIn" class="header-icon">&nbsp;&nbsp;LinkedIn</a>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/d1pen.pradhan"><img src="img/icons/facebook42.png" alt="Facebook" class="header-icon">&nbsp;&nbsp;Facebook</a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/dipenpradhan"><img src="img/icons/forrst42.png" alt="GitHub" class="header-icon">&nbsp;&nbsp;GitHub</a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/dipenpradhan13"><img src="img/icons/twitter42.png" alt="Twitter" class="header-icon">&nbsp;&nbsp;Twitter</a>
+                            </li>
+                            <li>
+                                <a href="https://plus.google.com/103123655818880611982/about"><img src="img/icons/google-plus42.png" alt="Google+" class="header-icon">&nbsp;&nbsp;Google+</a>
+                            </li>
+                            <li>
+                                <a href="http://downshiftaccelerate.wordpress.com/"><img src="img/icons/rss42.png" alt="Blog" class="header-icon">&nbsp;&nbsp;Blog</a>
+                            </li>
+                        </ul>
                     </li>
-                    <li class="toggle-topbar menu-icon"><a href="#">Contact</a></li>
                 </ul>
-
-                <section class="top-bar-section">
-                    <ul class="right">
-                        <li class="has-dropdown">
-                            <a href="#"><i class="fa fa-globe"></i>&nbsp;&nbsp;Stalk Me</a>
-                            <ul class="dropdown">
-                                <li><a href="http://in.linkedin.com/pub/dipen-pradhan/47/107/907/"><img src="img/icons/linkedin42.png" alt="LinkedIn" class="header-icon">&nbsp;&nbsp;LinkedIn</a></li>
-                                <li><a href="https://www.facebook.com/d1pen.pradhan"><img src="img/icons/facebook42.png" alt="Facebook" class="header-icon">&nbsp;&nbsp;Facebook</a></li>
-                                <li><a href="https://github.com/dipenpradhan"><img src="img/icons/forrst42.png" alt="GitHub" class="header-icon">&nbsp;&nbsp;GitHub</a></li>
-                                <li><a href="https://twitter.com/dipenpradhan13"><img src="img/icons/twitter42.png" alt="Twitter" class="header-icon">&nbsp;&nbsp;Twitter</a></li>
-                                <li><a href="https://plus.google.com/103123655818880611982/about"><img src="img/icons/google-plus42.png" alt="Google+" class="header-icon">&nbsp;&nbsp;Google+</a></li>
-                                <li><a href="http://downshiftaccelerate.wordpress.com/"><img src="img/icons/tumblr42.png" alt="Blog" class="header-icon">&nbsp;&nbsp;Blog</a></li>
-                            </ul>
+                <ul class="right show-for-large-up">
+                    <li class="has-dropdown">
+                        <li>
+                            <a href="http://linkedin.com/pub/dipen-pradhan/47/107/907/"><img src="img/icons/linkedin42.png" alt="LinkedIn" class="header-icon">&nbsp;&nbsp;LinkedIn</a>
                         </li>
-                    </ul>
-                </section>
-            </nav>
-        </div>
-
-        <!-- Avatar -->
-        <div class="row">
-            <!-- <div class="small-12 columns"> -->
-                <div class="small-1 columns">&nbsp;</div>
-                <div class="small-4 columns show-for-medium-up" id="avatar"></div>
-                <div class="small-12 columns show-for-small-only" >
-                    <div class="show-for-small-only" id="avatar"/>
-                </div>
-                <div class="small-6 columns show-for-medium-up" ><span>Dipen Pradhan</span></div>
-                <div class="small-1 columns">&nbsp;</div>
-            <!-- </div> -->
-        </div>
-
-        <!-- Action bar -->
-        <div class="row">
-            <div class="small-12 columns center">
-                <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-4">
-                    <li class="text-center">
-                        <a class="button" href="tel:+919960548063"><i class="fa fa-phone"></i>&nbsp;&nbsp;Call Me</a>
-                    </li>
-                    <li class="text-center">
-                        <a class="button" href="mailto:dipen.b.pradhan@gmail.com"><i class="fa fa-envelope"></i>&nbsp;&nbsp;Email Me</a>
-                    </li>
-                    <li class="text-center">
-                        <a class="button" href="#" data-reveal-id="projects-modal"><i class="fa fa-book"></i>&nbsp;&nbsp;My Projects</a>
-                    </li>
-                    <li class="text-center">
-                        <a class="button" href="#"><i class="fa fa-download"></i>&nbsp;&nbsp;Download Resumé</a>
+                        <li>
+                            <a href="https://www.facebook.com/d1pen.pradhan"><img src="img/icons/facebook42.png" alt="Facebook" class="header-icon">&nbsp;&nbsp;Facebook</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/dipenpradhan"><img src="img/icons/forrst42.png" alt="GitHub" class="header-icon">&nbsp;&nbsp;GitHub</a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/dipenpradhan13"><img src="img/icons/twitter42.png" alt="Twitter" class="header-icon">&nbsp;&nbsp;Twitter</a>
+                        </li>
+                        <li>
+                            <a href="https://plus.google.com/103123655818880611982/about"><img src="img/icons/google-plus42.png" alt="Google+" class="header-icon">&nbsp;&nbsp;Google+</a>
+                        </li>
+                        <li>
+                            <a href="http://downshiftaccelerate.wordpress.com/"><img src="img/icons/rss42.png" alt="Blog" class="header-icon">&nbsp;&nbsp;Blog</a>
+                        </li>
                     </li>
                 </ul>
-            </div>
+            </section>
+        </nav>
+    </div>
+    <!-- Avatar -->
+    <div class="row">
+        <div class="small-1 columns">&nbsp;</div>
+        <div class="small-4 columns show-for-medium-up avatar flip-anim" id="avatar-large"></div>
+        <div class="small-12 columns show-for-small-only">
+            <div class="show-for-small-only avatar small flip-anim" id="avatar-small"></div>
         </div>
-
-
-         <!-- Projects -->
-        
-
-        <!-- Projects modal -->
-        <div id="projects-modal" class="reveal-modal" data-reveal>
-            <h1>2014</h1>
-            <hr>
-            <table>
-                <thead>
-                    <tr>
-                        <th width="150">Name</th>
-                        <th width="150">When</th>
-                        <th width="450">Technologies</th>
-                        <th width="150">Link</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>BOX8 Android app</td>
-                        <td>May, 2014</td>
-                        <td>Android, MySQL, Linux, Java, Spring</td>
-                        <td><a href="#">http://abc.com/</a></td>
-                    </tr>
-                </tbody>
-            </table>
-
-            <h1>2013</h1>
-            <hr>
-            <table>
-                <thead>
-                    <tr>
-                        <th width="150">Name</th>
-                        <th width="150">When</th>
-                        <th width="450">Technologies</th>
-                        <th width="150">Link</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>BOX8 Android app</td>
-                        <td>May, 2014</td>
-                        <td>Android, MySQL, Linux, Java, Spring</td>
-                        <td><a href="#">http://abc.com/</a></td>
-                    </tr>
-                </tbody>
-            </table>
-
-            <a class="close-reveal-modal">&#215;</a>
+        <div class="small-6 columns show-for-medium-up text-justify " style="margin-top:60px; margin-left:20px">
+            <p>I’m a <a href="https://downshiftaccelerate.wordpress.com/2014/09/15/we-are-crafstmen-not-resources/" class="link-text">craftsman</a> practising the art of writing software. I make apps, games, servers, everything. Mostly mobile stuff. I live on the bleeding, cutting edge of technology. I’m one of the guys who make that edge.</p>
+            <p>When I’m not obsessing about tech, I’m fussing over my <a href="https://downshiftaccelerate.wordpress.com/2014/09/15/the-little-orange-rocket/" class="link-text">motorbike</a>. I love reading, and I love music.</p>
+            <p>I write a <a href="http://downshiftaccelerate.wordpress.com" class="link-text">blog</a> where all of the above stuff is presented as anecdotes, reviews, thoughts, reflections, rants and sometimes utter gibberish about random esoteric subjects.</p>
         </div>
-
-    <!-- <div class="slick-slider">
-        <div class="center">your content 1</div>
-        <div>your content 2</div>
-        <div>your content 3</div>
-        <div>your content 4</div>
-        <div>your content 5</div>
-        <div>your content 6</div>
-        <div>your content 7</div>
-        <div>your content 8</div>
-    </div> -->
-
-        <!-- <div class="row">
-            <h1>2014</h1>
-            <h5>Sportkix</h5>
-            <div class="small-2 columns"><a class="th" href="http://www.sportkix.com"><img src="img/sportkix_2.png"/></a></div>
-            <div class="small-8 columns"></div>
-        </div> -->
-
-        <!-- Projects Timeline -->
+        <div class="small-1 columns">&nbsp;</div>
+    </div>
+    <!-- Action bar -->
+    <div class="row">
+        <div class="small-12 columns center">
+            <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-4">
+                <li class="text-center">
+                    <a id="blog" class="button" href="http://downshiftaccelerate.wordpress.com"><i class="fa fa-globe"></i>&nbsp;&nbsp;BLOG</a>
+                </li>
+                <li class="text-center">
+                    <a id="email" class="button" href="mailto:me@dipenpradhan.com"><i class="fa fa-envelope"></i>&nbsp;&nbsp;EMAIL</a>
+                </li>
+                <li class="text-center">
+                    <!-- <a class="button" href="#" data-reveal-id="projects-modal"><i class="fa fa-book"></i>&nbsp;&nbsp;Projects</a> -->
+                    <a id="projects" class="button" href="#"><i class="fa fa-book"></i>&nbsp;&nbsp;PORTFOLIO</a>
+                </li>
+                <li class="text-center">
+                    <a id="resume" class="button" href="/files/Resume-DipenPradhan.pdf" target="_blank"><i class="fa fa-download"></i>&nbsp;&nbsp;RÉSUMÉ</a>
+                </li>
+                <li class="show-for-small-only text-center">
+                    <a id="about" class="button" href="#" data-reveal-id="about-modal"><i class="fa fa-book"></i>&nbsp;&nbsp;ABOUT ME</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- Projects -->
+    <div id="about-modal" class="reveal-modal text-justify" data-reveal>
+        <p style="margin-top:50px">I’m a <a href="https://downshiftaccelerate.wordpress.com/2014/09/15/we-are-crafstmen-not-resources/" class="link-text">craftsman</a> practising the art of writing software. I make apps, games, servers, everything. Mostly mobile stuff. I live on the bleeding, cutting edge of technology. I’m one of the guys who make that edge.</p>
+        <p>When I’m not obsessing about tech, I’m fussing over my <a href="https://downshiftaccelerate.wordpress.com/2014/09/15/the-little-orange-rocket/" class="link-text">motorbike</a>. I love reading, and I love music.</p>
+        <p>I write a <a href="http://downshiftaccelerate.wordpress.com" class="link-text">blog</a> where all of the above stuff is presented as anecdotes, reviews, thoughts, reflections, rants and sometimes utter gibberish about random esoteric subjects.</p>
+        <a class="fa fa-close close-reveal-modal"></a>
+    </div>
+    <!-- Projects Timeline -->
     <section id="cd-timeline" class="cd-container">
         <div class="cd-timeline-block">
-            <div class="cd-timeline-img cd-picture">
-                <img src="img/cd-icon-picture.svg" alt="Sportkix">
-            </div> <!-- cd-timeline-img -->
-
+            <div class="cd-timeline-img cd-light">
+                <img src="img/spkx_icon.png" alt="Sportkix">
+            </div>
+            <!-- cd-timeline-img -->
+            <!-- Timeline-Sportkix -->
             <div class="cd-timeline-content">
-                <h2>SportKix &nbsp;&nbsp;&nbsp;<a href="http://www.sportkix.com"><span>sportkix.com</span></a></h2>
-                
-                <!-- <p>I'm part of the android team, developing the SportKix app - A new way of delivering tailored sports news</p>
-                <a href="#0" class="cd-read-more">Read more</a> -->
+                <h2>SportKix &nbsp;&nbsp;&nbsp;<a href="http://www.sportkix.com" class="link-text">sportkix.com</a></h2>
+                <a href="https://play.google.com/store/apps/details?id=com.sportkix" class="link-text">https://play.google.com/store/apps/details?id=com.sportkix</a>
                 <ul class="clearing-thumbs small-block-grid-4" data-clearing>
-                    <li><a href="img/sportkix_1.png"><img data-caption="caption here..." src="img/sportkix_1.png"></a></li>
-                    <li><a href="img/sportkix_1.png"><img data-caption="caption 2 here..." src="img/sportkix_1.png"></a></li>
-                    <li><a href="img/sportkix_1.png"><img data-caption="caption 3 here..." src="img/sportkix_1.png"></a></li>
+                    <li>
+                        <a href="img/spkx_1.jpg"><img data-caption="Sports News Articles" src="img/spkx_1_thumb.jpg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="img/spkx_2.jpg"><img data-caption="Match Scores" src="img/spkx_2_thumb.jpg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="img/spkx_3.jpg"><img data-caption="Personalization" src="img/spkx_3_thumb.jpg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="img/spkx_4.jpg"><img data-caption="" src="img/spkx_4_thumb.jpg">
+                        </a>
+                    </li>
                 </ul>
-                
                 <div class="cd-date">
-                    <h4>July 2014 - Now</h4>
-                    <span>I'm part of the android team at SportKix, developing an app for delivering tailored sports updates.</span>
+                    <h4>July 2014 - July 2015</h4>
+                    <span>Lead Developer for the Android team at SportKix. We're developing a sports app that delivers personalized sports content at blazing fast speeds, with a clean UX that follows material design principles.</span>
                 </div>
-
-            </div> <!-- cd-timeline-content -->
-        </div> <!-- cd-timeline-block -->
-
+            </div>
+            <!-- cd-timeline-content -->
+        </div>
+        <!-- cd-timeline-block -->
+        <!-- Timeline-Done -->
         <div class="cd-timeline-block">
-            <div class="cd-timeline-img cd-movie">
-                <img src="img/cd-icon-movie.svg" alt="Done">
-            </div> <!-- cd-timeline-img -->
-
+            <div class="cd-timeline-img cd-bright">
+                <img src="img/done_icon.png" alt="Done">
+            </div>
+            <!-- cd-timeline-img -->
             <div class="cd-timeline-content">
-                <h2>Done Solutions &nbsp;&nbsp;&nbsp;<a href="http://done.to"><span>done.to</span></a></h2>
+                <h2>Done Solutions &nbsp;&nbsp;&nbsp;<a href="http://done.to"class="link-text">done.to</a></h2>
                 <p>A templatized e-commerce solution for restaurants</p>
-                    <!-- <strong>What we achieved:</strong>
-                    <p>
-                        1. We developed a normalized MySQL database that could support and scale for a varied range of Food, Beverage and Dessert Menus across multiple restaurants at multiple store locations
-                    </p>
-                    <p>
-                        2. You can buy a <strong>Pepperoni Pizza</strong> that has a <strong>Cheese Burst</strong> base, with a topping of <strong> Olives </strong> and <strong> Jalapenos </strong>
-                    </p>
-                    <p>
-                        3. The system we built supports endless hierarchical customizations
-                    </p> -->
+                <a href="https://play.google.com/store/apps/developer?id=Done" class="link-text">https://play.google.com/store/apps/developer?id=Done</a>
+                <ul class="clearing-thumbs small-block-grid-4" data-clearing>
+                    <li>
+                        <a href="img/done_1.jpg"><img data-caption="https://play.google.com/store/apps/details?id=done.mobile.eatsome" src="img/done_1_thumb.jpg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="img/done_2.jpg"><img data-caption="https://play.google.com/store/apps/details?id=com.cheelizza" src="img/done_2_thumb.jpg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="img/done_3.jpg"><img data-caption="https://play.google.com/store/apps/details?id=to.done.wokinthebox" src="img/done_3_thumb.jpg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="img/done_4.jpg"><img data-caption="https://play.google.com/store/apps/details?id=com.poncho" src="img/done_4_thumb.jpg">
+                        </a>
+                    </li>
+                </ul>
                 <div class="cd-date">
                     <h4>December 2013 - June 2014</h4>
-                   
-
                     <p>I played a major role in developing the database structure for a modular, fully templatized e-commerce solution for food ordering from restaurants.</p>
                     <p>I also led the effort for developing the Android front end, split into two parts - a UI template, which could be themed for every restaurant, and a library that talks to the server and takes care of the logical heavy lifting.</p>
                 </div>
-            </div> <!-- cd-timeline-content -->
-        </div> <!-- cd-timeline-block -->
-
+            </div>
+            <!-- cd-timeline-content -->
+        </div>
+        <!-- cd-timeline-block -->
+        <!-- Timeline-BBD -->
         <div class="cd-timeline-block">
-            <div class="cd-timeline-img cd-picture">
-                <img src="img/cd-icon-picture.svg" alt="Picture">
-            </div> <!-- cd-timeline-img -->
-
+            <div class="cd-timeline-img cd-droid">
+                <img src="img/android_logo.png" alt="Big Bazaar Direct">
+            </div>
+            <!-- cd-timeline-img -->
             <div class="cd-timeline-content">
                 <h2>B2B M-Commerce tablet app for Big Bazaar</h2>
-                
-                
+                <a href="http://bigbazaaragent.com/content/big-bazaar-direct" class="link-text">http://bigbazaaragent.com/content/big-bazaar-direct</a>
+                <ul class="clearing-thumbs small-block-grid-4" data-clearing>
+                    <li>
+                        <a href="img/bb_1.jpg"><img data-caption="Products" src="img/bb_1_thumb.jpg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="img/bb_2.jpg"><img data-caption="Product details" src="img/bb_2_thumb.jpg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="img/bb_3.jpg"><img data-caption="Account Management" src="img/bb_3_thumb.jpg">
+                        </a>
+                    </li>
+                </ul>
                 <div class="cd-date">
-                <h4>August 2013 - November 2013</h4>
-                   
-                    <p>Restructured and rewrote a large, poorly executed codebase transformed their buggy, unstable application into a smooth, stable state within 2 months.</p>
-                </div>    
+                    <h4>August 2013 - November 2013</h4>
+                    <p>B2B app for merchants affiliated to one of India's largest supermarkets. With a team of 2, we restructured and rewrote a large, poorly executed codebase transformed their buggy, unstable application to a smooth, stable state within 3 months.</p>
                 </div>
-
-            </div> <!-- cd-timeline-content -->
-        </div> <!-- cd-timeline-block -->
-
+            </div>
+        </div>
+        <!-- cd-timeline-content -->
+        <!-- cd-timeline-block -->
         <div class="cd-timeline-block">
-            <div class="cd-timeline-img cd-location">
-                <img src="img/cd-icon-location.svg" alt="Location">
-            </div> <!-- cd-timeline-img -->
-
+            <div class="cd-timeline-img cd-droid">
+                <img src="img/pfme_icon.png" alt="E-Learning / Test practice app">
+            </div>
+            <!-- cd-timeline-img -->
             <div class="cd-timeline-content">
-                <h2>Title of section 4</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
-                <a href="#0" class="cd-read-more">Read more</a>
-                <span class="cd-date">Feb 14</span>
-            </div> <!-- cd-timeline-content -->
-        </div> <!-- cd-timeline-block -->
-
+                <h2>E-Learning / Test practice app</h2>
+                <ul class="clearing-thumbs small-block-grid-4" data-clearing>
+                    <li>
+                        <a href="img/pfme_1.jpg"><img data-caption="Profile" src="img/pfme_1_thumb.jpg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="img/pfme_2.jpg"><img data-caption="Test Selection" src="img/pfme_2_thumb.jpg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="img/pfme_3.jpg"><img data-caption="Test Questions" src="img/pfme_3_thumb.jpg">
+                        </a>
+                    </li>
+                </ul>
+                <div class="cd-date">
+                    <h4>March 2013 - July 2013</h4>
+                    <p>App for students to practice for tests like GRE, GMAT, etc. Developed android tablet app and server using Java Spring Framework. Adaptive algorithm to analyze student performance</p>
+                </div>
+            </div>
+        </div>
         <div class="cd-timeline-block">
-            <div class="cd-timeline-img cd-location">
-                <img src="img/cd-icon-location.svg" alt="Location">
-            </div> <!-- cd-timeline-img -->
-
+            <div class="cd-timeline-img cd-light">
+                <img src="img/sr_icon.png" alt="Soul Rhythm">
+            </div>
             <div class="cd-timeline-content">
-                <h2>Title of section 5</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum.</p>
-                <a href="#0" class="cd-read-more">Read more</a>
-                <span class="cd-date">Feb 18</span>
-            </div> <!-- cd-timeline-content -->
-        </div> <!-- cd-timeline-block -->
-
+                <h2>Soul Rhythm - Mayan Astrology app</h2>
+                <a href="https://play.google.com/store/apps/details?id=com.soulrhythm" class="link-text">https://play.google.com/store/apps/details?id=com.soulrhythm</a>
+                <ul class="clearing-thumbs small-block-grid-4" data-clearing>
+                    <li>
+                        <a href="img/sr_1.jpg"><img data-caption="Menu" src="img/sr_1_thumb.jpg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="img/sr_2.jpg"><img data-caption="Family Graph" src="img/sr_2_thumb.jpg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="img/sr_3.jpg"><img data-caption="Bio Graph" src="img/sr_3_thumb.jpg">
+                        </a>
+                    </li>
+                </ul>
+                <div class="cd-date">
+                    <h4>Early 2013</h4>
+                    <p>Developed android app for an Australian client. Converted complex mathematical calculations written in excel macros and wrote custom graph rendering engine using Canvas 2D.</p>
+                </div>
+            </div>
+        </div>
         <div class="cd-timeline-block">
-            <div class="cd-timeline-img cd-movie">
-                <img src="img/cd-icon-movie.svg" alt="Movie">
-            </div> <!-- cd-timeline-img -->
-
+            <div class="cd-timeline-img cd-bright">
+                <img src="img/xt_icon.png" alt="Expense Tracker">
+            </div>
             <div class="cd-timeline-content">
-                <h2>Final Section</h2>
-                <p>This is the content of the last section</p>
-                <span class="cd-date">Feb 26</span>
-            </div> <!-- cd-timeline-content -->
-        </div> <!-- cd-timeline-block -->
-    </section> <!-- cd-timeline -->
+                <h2>Expense Tracker app</h2>
+                <a href="https://play.google.com/store/apps/details?id=com.expensetracker" class="link-text">https://play.google.com/store/apps/details?id=com.expensetracker</a>
+                <ul class="clearing-thumbs small-block-grid-4" data-clearing>
+                    <li>
+                        <a href="img/xt_1.jpg"><img data-caption="Calendar View" src="img/xt_1_thumb.jpg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="img/xt_2.jpg"><img data-caption="Adding an expense" src="img/xt_2_thumb.jpg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="img/xt_3.jpg"><img data-caption="Monthly Listing" src="img/xt_3_thumb.jpg">
+                        </a>
+                    </li>
+                </ul>
+                <div class="cd-date">
+                    <h4>Late 2012</h4>
+                    <p>Designed and developed android app for an overseas client. Handled everything from requirements gathering to design and development.</p>
+                </div>
+            </div>
+        </div>
+        <div class="cd-timeline-block">
+            <div class="cd-timeline-img cd-droid">
+                <img src="img/android_logo.png" alt="Drunk Man Game">
+            </div>
+            <div class="cd-timeline-content">
+                <h2>Drunk Man Game</h2>
+                <ul class="clearing-thumbs small-block-grid-4" data-clearing>
+                    <li>
+                        <a href="img/dm_1.jpg"><img data-caption="Drunk Man Game" src="img/dm_1_thumb.jpg">
+                        </a>
+                    </li>
+                </ul>
+                <div class="cd-date">
+                    <h4>Late 2012</h4>
+                    <p>Developed a 3D android game. A "drunk man" character walks with a wobbling gait (based on a sin function) towards the screen along the Z axis. The wobbling/falling speed of the character increases as time goes on.</p>
+                </div>
+            </div>
+        </div>
+        <div class="cd-timeline-block">
+            <div class="cd-timeline-img cd-light">
+                <img src="img/bw_icon.png" alt="Bot Wars">
+            </div>
+            <div class="cd-timeline-content">
+                <h2>Bot Wars</h2>
+                <a href="https://code.google.com/p/bot-wars/" class="link-text">https://code.google.com/p/bot-wars/</a>
+                <a href="https://github.com/dipenpradhan/bot-wars" class="link-text">https://github.com/dipenpradhan/bot-wars</a>
+                <ul class="clearing-thumbs small-block-grid-4" data-clearing>
+                    <li>
+                        <a href="img/bw_1.jpg"><img data-caption="Bot Wars Game" src="img/bw_1_thumb.jpg">
+                        </a>
+                    </li>
+                </ul>
+                <div class="cd-date">
+                    <h4>Mid 2012</h4>
+                    <p>Side scrolling, 2D multiplayer game (2 players). 40+ forks on Google Code and GitHub. Built using AndEngine and Box2D. Multiplayer using UDP networking, and bluetooth RFCOMM sockets</p>
+                </div>
+            </div>
+        </div>
+        <div class="cd-timeline-block">
+            <div class="cd-timeline-img cd-droid">
+                <img src="img/egg_icon.png" alt="Bot Wars">
+            </div>
+            <div class="cd-timeline-content">
+                <h2>eGGs</h2>
+                <a href="https://github.com/dipenpradhan/eGGs" class="link-text">https://github.com/dipenpradhan/eGGs</a>
+                <ul class="clearing-thumbs small-block-grid-4" data-clearing>
+                    <li>
+                        <a href="img/egg_1.jpg"><img data-caption="eGGs Game" src="img/egg_1_thumb.jpg">
+                        </a>
+                    </li>
+                </ul>
+                <div class="cd-date">
+                    <h4>Mid 2012</h4>
+                    <p>Egg shooting game with slingshot mechanism, built using AndEngine and Box2D</p>
+                </div>
+            </div>
+        </div>
+        <div class="cd-timeline-block">
+            <div class="cd-timeline-img cd-light">
+                <img src="img/num_icon.png" alt="NumTrix">
+            </div>
+            <div class="cd-timeline-content">
+                <h2>NumTrix</h2>
+                <a href="https://github.com/dipenpradhan/numtrix" class="link-text">https://github.com/dipenpradhan/numtrix</a>
+                <ul class="clearing-thumbs small-block-grid-4" data-clearing>
+                    <li>
+                        <a href="img/num_1.jpg"><img data-caption="NumTrix Game" src="img/num_1_thumb.jpg">
+                        </a>
+                    </li>
+                </ul>
+                <div class="cd-date">
+                    <h4>Mid 2012</h4>
+                    <p>Tetris-like number addition game, made using Canvas 2D API. Number blocks fall from above, and the player has to achieve the target sum by placing numbers on top of each other. Speed increases as time goes on.</p>
+                </div>
+            </div>
+        </div>
+        <div class="cd-timeline-block">
+            <div class="cd-timeline-img cd-light">
+                <img src="img/java_icon.png" alt="Grass Animation">
+            </div>
+            <div class="cd-timeline-content">
+                <h2>Grass Animation</h2>
+                <iframe width="420" height="315" src="//www.youtube.com/embed/8klrW7F_q3o" frameborder="0" allowfullscreen></iframe>
+                <div class="cd-date">
+                    <h4>Mid 2012</h4>
+                    <p>Grass and firefly animation based on bezier curve manipulation, using Java Graphics2D</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- cd-timeline -->
+    <!-- Joyride -->
+    <ol class="joyride-list" data-joyride>
+        <li data-class="avatar" data-text="<i class='fa fa-chevron-right'></i>&nbsp;&nbsp;Next" data-options="prev_button: false">
+            <p>Hello! I'm <strong>Dipen.</strong> I craft software for a living.</p>
+        </li>
+        <li data-class="avatar" data-text="<i class='fa fa-chevron-right'></i>&nbsp;&nbsp;Next" data-prev-text="<i class='fa fa-chevron-left'></i>&nbsp;&nbsp;Back">
+            <p>I live in <strong>Mumbai</strong>, and I usually craft mobile apps or games. I freelance at times.</p>
+        </li>
+        <li data-class="avatar" data-button="<i class='fa fa-close'></i>&nbsp;&nbsp;Close">
+            <p>You can find all my projects and means to contact me here. Thanks for stopping by!</p>
+        </li>
+    </ol>
+    <footer id="footer">
+        <div id="footer-highlight"></div>
+        <div class="show-for-small-only">dipen pradhan.</div>
+    </footer>
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+    function fadeInTimeline() {
+        $('#cd-timeline').fadeIn('500', function() {
+
+            $('html, body').animate({
+                scrollTop: $("#cd-timeline").offset().top
+            }, 1000);
+        });
+        // $('#cd-timeline').toggleClass('hide')
+
+    };
+    $(document).ready(function() {
+
+        $('#avatar-large').on('click', function() {
+            $(document).foundation('joyride', 'start')
+            ga('send', 'event', 'avatar', 'click', 'avatar-large');
+        })
+
+        $('#avatar-small').on('click', function() {
+            $(document).foundation('joyride', 'start')
+            ga('send', 'event', 'avatar', 'click', 'avatar-small');
+        })
 
 
-        <!-- Joyride -->
-        <ol class="joyride-list" data-joyride>
-            <li data-id="avatar" data-text="<i class='fa fa-chevron-right'></i>&nbsp;&nbsp;Next" data-options="prev_button: false">
-                <p>Hello! I am <strong>Dipen Pradhan</strong>. I make apps and games for a living.</p>
-            </li>
-            <li data-id="avatar" data-text="<i class='fa fa-chevron-right'></i>&nbsp;&nbsp;Next" data-prev-text="<i class='fa fa-chevron-left'></i>&nbsp;&nbsp;Back">
-                <p>I live in <strong>Mumbai, India</strong>. I'm currently working at <strong><a href="http://www.sportkix.com/">Sportkix</a></strong> on the android team. I freelance at times.</p>
-            </li>
-            <li data-id="avatar" data-button="<i class='fa fa-close'></i>&nbsp;&nbsp;Close">
-                <p>You can find all my projects and means to contact me here. Thanks for stopping by!</p>
-            </li>
-        </ol>
 
-        <script src="js/vendor/jquery.js"></script>
-        <script src="js/foundation.min.js"></script>
-        <script src="js/main.js"></script>
-        <script src="js/readmore.min.js"></script>
-        <script>
-            $(document).foundation();
-        </script>
-        <script>
-            $(document).ready(function () {
-                setTimeout(function () {
-                    $(document).foundation('joyride', 'start');
+        $('#projects').on('click', function() {
+            ga('send', 'event', 'button', 'click', 'Projects');
+            fadeInTimeline();
+        });
 
-                }, 1500);
-            });
-        </script>
-        <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.3.15/slick.min.js"></script>
-        <script type="text/javascript">
-  //       $(document).ready(function(){
-  //           $('.slick-slider').slick({
-  //               slidesToShow: 1,
-  // slidesToScroll: 1,
-  // autoplay: true,
-  // autoplaySpeed: 2000,
-  //           });
-  //       });
+    });
     </script>
-             <script>
+    <script>
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-        //     $(document).ready(function() {
-        //         $(window).scroll( function() { 
-        //             var scrolled_val = $(document).scrollTop().valueOf();
-        //             // console.log(scrolled_val+ ' = scroll value');
-        //             if(scrolled_val>10){
-        //                 $("#avatar").fadeTo(100,50);
-        //             }
+    ga('create', 'UA-58080425-1', 'auto');
+    ga('send', 'pageview');
+    </script>
+    <script>
+    $(document).foundation();
+    </script>
+</body>
 
-        // });
-        // });
-        //     </script>
-    </body>
 </html>

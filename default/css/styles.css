@@ -6,16 +6,19 @@ body{
     background-repeat: no-repeat;
     background-size: contain;
     margin: 0;
+    font-family: 'Raleway', sans-serif;
 }
-
+a{
+ font-family: 'Raleway', sans-serif;   
+}
 .header-icon{
     height: 22px;
 }
 .block{
     color:#222;
-        height:100vh;
+        height:100vh
 }
-#avatar{
+.avatar{
     background-image: url("../img/avatar.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -26,25 +29,66 @@ body{
     height: 250px;
     margin: 75px auto;
     width: 250px;
-
     -webkit-animation: flipInY 1s;
     animation: flipInY 1s;
+ 
 }
 
+.avatar.small{
+    height:150px;
+    width: 150px;
+    margin: 25px auto;
+}
+.title-text{
+    color:#fff;
+    font-size: 25px;
+    font-family: 'Roboto Slab', serif;
+}
+.topbar-button{
+    background: #007ba9 !important;
+}
+.topbar-button:hover{
+    background: #005a86 !important;
+}
 a.button{
     background-color: gray;
     border-radius: 2px;
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
-    font-size: 14px;
+    font-size: 18px;
+    font-weight: bold;
     overflow: hidden;
     white-space: nowrap;
     width: 220px;
     text-overflow: ellipsis;
-
     -webkit-animation: flipInX 1s;
     animation: flipInX 1s;
+}
+.link-text{
+    color:#007ba9;
+    text-decoration: underline;
+    font-weight: bold;
 }
 
 hr{
     margin-top: 0px;
+}
+.cd-timeline-content{
+    word-wrap: break-word;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 30px;
+    width: 100%;
+    text-align: center;
+    line-height: 30px;
+    background-color:#333;
+    color:#fff;
+    font-family: 'Roboto Slab',serif;
+}
+
+#footer-highlight{
+    background-color: gray;
+    height: 5px;
 }
